@@ -1,0 +1,207 @@
+body {
+    background-image: url(../image/background.jpg);
+    background-attachment: fixed;
+}
+
+.header_section .logo {
+    width: 90px;
+    height: 40px;
+}
+
+.banner {
+    background-image: url(../image/team.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 85vh;
+    position: relative;
+}
+h1,h2{
+	text-shadow: #1c1c13 0 4px 1px, #d22614 0 6px 0;
+	font-size: 50px;
+	font-weight: bold;
+}
+.card-title,h3{
+	font-weight: 600 !important;
+}
+.table-price .card .card-title h3{
+	font-weight: 400 !important;
+}
+
+.btn{
+	font-size: 20px !important;
+}
+.banner_content{
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	position: absolute;
+}
+.Service_Section img {
+    width: 100%;
+    height: 30vh;
+}
+
+.Team_section img {
+    border-radius: 50%;
+    width: 250px !important;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.Team_section .item {
+    display: inline-block;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #bdd1df;
+    margin-left: 5px;
+}
+
+.Team_section .card-title {
+    text-transform: uppercase;
+}
+
+.Team_section .item .fa {
+    color: #fff;
+    font-size: 20px;
+    transition: 0.5s all ease;
+}
+
+.Team_section .item:hover {
+    background: #393939;
+}
+
+.Team_section .item:hover i {
+    color: #fff;
+    transform: rotate(360deg);
+}
+
+.about-us-page-header-banner {
+    background-image: url(../image/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 60vh;
+    position: relative;
+}
+
+.Service_Section_banner {
+    background-image: url(../image/jonathan-beckman-Qj6XPJbiSSU-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 60vh;
+    position: relative;
+}
+.contact_banner {
+    background-image: url(../image/dan-meyers--MqV06PYMSs-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 60vh;
+    position: relative;
+}
+
+#what-you-do-section img {
+    width: 300px;
+    height: 300px;
+}
+
+#icon-boxes .fa {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#icon-boxes .card {
+    cursor: pointer;
+}
+.Cbody{
+    height: 50vh;
+}
+
+.hoverEffect {
+    transition: 0.8s all ease;
+}
+
+.hoverEffect:hover {
+    background: red;
+    color: #000;
+}
+
+.hoverEffect1:hover {
+    background: pink;
+    color: #000;
+}
+
+.hoverEffect2:hover {
+    background: #479353;
+    color: #fff;
+}
+
+.hoverEffect3:hover {
+    background: #F49300;
+    color: #000;
+}
+
+.hoverEffect4:hover {
+    background: #5EDB50;
+    color: #000;
+}
+
+.slick-next::before {
+    content: url(../image/arrow2.png);
+}
+
+.slick-prev::before {
+    content: url(../image/arrow.png);
+}
+
+.blockquote {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.blockquote-footer {
+    background-color: #BCBFC1;
+    border-radius: 5px;
+}
+
+.blogSlideImg {
+    float: left;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.contentSlick {
+    margin-left: 150px;
+}
+
+img {
+    cursor: pointer;
+}
+
+.BgColor {
+    background: linear-gradient(rgb(240, 234, 234, 0.8), rgba(240, 234, 234, 0.8));
+}
+
+.BgColorFAQ {
+    background: linear-gradient(rgb(52, 58, 64, 0.8), rgba(52, 58, 64, 0.8));
+}
+
+.Control_Row {
+    width: 85% !important;
+    margin: 0 auto;
+}
